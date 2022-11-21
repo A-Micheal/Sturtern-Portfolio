@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+}
+.General-Cont {
+  background:rgba(8, 14, 44);
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 15px 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px 8% 0 3%;
+}
+h1 {
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+  text-align: center;
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+button {
+  background: #f3f1d2;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  border: 0;
+  color: rgb(6, 3, 48);
+  font-weight: 600;
+}
+.picture-frame {
+    border-top: 1px solid white;
+  min-width: 90%;
+  height: 40vh;
+  margin: 80px 0 0 0;
+  background:rgba(11, 19, 54, 0.726); 
+}
+.frame{
+  max-width: 20%;
+  max-height: 60px;
+   border: 2px solid white;
+}
+.my-pic{
+    width: 100%;
+    max-width:50px;
+    height:auto;
+}
